@@ -16,10 +16,6 @@
     -webkit-box-sizing: border-box;
 }
 
-.website{
-    position:relative;
-}
-
 body{
     padding:2.2em;
     color:white;
@@ -141,43 +137,8 @@ section.info{
 
 }
 
-
-@media only screen and (min-width: 850px){
-    body{
-        display:flex;
-        justify-content: center;
-        align-items: center;
-        background: white;
-    }
-
-    .website{
-        width:375px;
-        height:900px;
-        background-color:var(--clr-violet);
-        padding:2.2em;
-        color:white;
-        z-index: -2;
-    }
-}
-
-
 // Desktop
 @media only screen and (min-width: 1440px){
-    .website{
-        width:1440px;
-        height:800px;
-        padding-inline:4em;
-        position:relative;
-        z-index:-2;
-    }
-    
-    body{
-        padding:0;
-        display:flex;
-        justify-content: center;
-        align-items: center;
-        background:white;
-    }
 
     header{
         .logo{
